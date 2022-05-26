@@ -1,2 +1,2 @@
 #!/bin/bash
-[[! -f ../*.html && date -r ../FILE.hmtl < date -r FILE.html]] && cp *.html ../
+cp -u *.html ../
